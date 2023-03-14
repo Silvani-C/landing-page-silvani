@@ -389,6 +389,19 @@ padding: 0px;
 .cards label {    
 width: 180px;    
 }
+.card .btn-contact{
+font-size: 16px;
+letter-spacing: 1px;       
+}
+.infos .name{
+font-size: 10px;
+}
+.sociais ion-icon{
+font-size: 20px;
+transition: all .7s ease;
+color: #ECEAED;
+margin: 5px;
+}
 .scrollup-btn{
 width: 30px;  
 height: 30px;    
@@ -468,19 +481,6 @@ right: 0;
 margin: auto;
 cursor: pointer;
 transition: transform 0.55s ease;
-}
-.card .btn-contact{
-font-size: 16px;
-letter-spacing: 1px;       
-}
-.infos .name{
-font-size: 10px;
-}
-.sociais ion-icon{
-font-size: 20px;
-transition: all .7s ease;
-color: #ECEAED;
-margin: 5px;
 }
 /*contatos*/
 .contatos{
