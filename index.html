@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing Page - Silvani</title>
+    <!-- Swiper JS CSS-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Query-->
+    <link rel="stylesheet" href="assets/css/query.css">
+    <!-- Reutilizavel-->
+    <link rel="stylesheet" href="assets/css/reutilizavel.css">
+   <!--favicon-->
+   <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <a href="#"><img src="assets/img/logo.png" alt="" class="logoSil"></a>
+        <!--menu mobile-->
+        <div class="menuTobble" onclick="toggkeMenu();"></div>
+        <!--menu-->
+        <ul class="navigation">
+            <li><a href="#home" onclick="toggkeMenu();">Início</a></li>
+            <li><a href="#sobre" onclick="toggkeMenu();">Sobre</a></li>
+            <li><a href="#habilidades" onclick="toggkeMenu();">Habilidades</a></li>
+            <li><a href="#redes-sociais" onclick="toggkeMenu();">Projetos</a></li>
+            <li><a href="#contatos" onclick="toggkeMenu();">Contatos</a></li>
+        </ul>
+        <!--btn pesquisar-->
+        <div class="input-box">
+            <input type="text" placeholder="Pesquisar...">
+            <span class="search">
+                <ion-icon name="search-outline" class="outline"></ion-icon>
+            </span>
+            <ion-icon name="close-outline" class="close"></ion-icon>
+        </div>
+    </header>
+    <!-- Home Section -->
+    <main>
+        <!-- home carrousel -->
+        <section class="home-slide" id="home">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <!--slider 01-->
+                    <div class="swiper-slide">
+                        <div class="image-banner"><img src="assets/img/img1-home.png" alt="Portfólio da Silvani"
+                                class="home-img"></div>
+                        <!--detalhes-->
+                        <div class="home-details-1">
+                            <div class="swiper-slide-1">
+                                <h4 class="sub-h4">Olá, meu nome é<h4>
+                                <h1 class="title-h1">SILVANI</h1>
+                                <h3 class="sub-h3"> Eu sou desenvolvedora web</h3>
+                                <a href="https://www.linkedin.com/in/silvani-santos-ba13a526a/" target="_blank" class="btn-geral">Linkedin</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--slider 02-->
+                    <div class="swiper-slide swiper-slide-2">
+                        <img src="assets/img/slide2.JPG" alt="Portfófio do Junior Silva" class="home-img">
+                        <div class="home-details detalhes-slide-2">
+                            <div class="home-text texto-slide-2">
+                                <h4 class="sub-h4">Portfófio<h4>
+                                <h1 class="title-h1">Junior Silva</h1>
+                                <h3 class="sub-h-3">Website Responsivo</h3>
+                                <a href="https://silvani-c.github.io/landing-page-junior-silva" target="_blank" class="btn-geral">Saiba Mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--slider 03-->
+                    <div class="swiper-slide swiper-slide-2">
+                        <img src="assets/img/slide3.JPG" alt="Silvani Food" class="home-img">
+                        <div class="home-details detalhes-slide-2">
+                            <div class="home-text texto-slide-2">
+                                <h4 class="sub-h4">Food<h4>
+                                <h1 class="title-h1">Silvani 😋 Food</h1>
+                                <h3 class="sub-h-3">Website Responsivo</h3>
+                                <a href="https://silvani-c.github.io/silvani-food/" target="_blank" class="btn-geral">Saiba Mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--slider 04-->
+                    <div class="swiper-slide swiper-slide-2">
+                        <img src="assets/img/slide4.JPG" alt="Tela de Login" class="home-img">
+                        <div class="home-details detalhes-slide-2">
+                            <div class="home-text texto-slide-2">
+                                <h4 class="sub-h4">Tela de Login<h4>
+                                <h1 class="title-h1">Login Simples</h1>
+                                <h3 class="sub-h-3">Website Responsivo</h3>
+                                <a href="https://silvani-c.github.io/login-simples-responsivo/" target="_blank" class="btn-geral">Saiba Mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--slider 05-->
+                    <div class="swiper-slide swiper-slide-2">
+                        <img src="assets/img/slide5.JPG" alt="Agência Digital Silviér - Fake " class="home-img">
+                        <div class="home-details detalhes-slide-2">
+                            <div class="home-text texto-slide-2">
+                                <h4 class="sub-h4">Agência Digital<h4>
+                                <h1 class="title-h1">Digital Silviér</h1>
+                                <h3 class="sub-h-3">Site Responsivo</h3>
+                                <a href="https://silvani-c.github.io/agencia-digital-silvier/" target="_blank" class="btn-geral">Saiba Mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--slider 06-->
+                    <div class="swiper-slide swiper-slide-2">
+                        <img src="assets/img/slide6.JPG" alt="Portfólio da Silvani Simples" class="home-img">
+                        <div class="home-details detalhes-slide-2">
+                            <div class="home-text texto-slide-2">
+                                <h4 class="sub-h4">Portfólio<h4>
+                                <h1 class="title-h1">SILVANI</h1>
+                                <h3 class="sub-h-3">Site Responsivo</h3>
+                                <a href="https://silvani-c.github.io/portfolio-simples-da-silvani/"
+                                target="_blank" class="btn-geral">Saiba Mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--slider 07-->
+                    <div class="swiper-slide swiper-slide-2">
+                        <img src="assets/img/slide7.png" alt="Pizza FooD" class="home-img">
+                        <div class="home-details detalhes-slide-2">
+                            <div class="home-text texto-slide-2">
+                                <h4 class="sub-h4">Pizzaria<h4>
+                                <h1 class="title-h1">Pizza FooD</h1>
+                                <h3 class="sub-h-3">Website Responsivo</h3>
+                                <a href="https://silvani-c.github.io/projeto-pizzaria/" target="_blank" class="btn-geral">Saiba Mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--slider 08-->
+                    <div class="swiper-slide swiper-slide-2">
+                        <img src="assets/img/slide8.png" alt="Slide Show" class="home-img">
+                        <div class="home-details detalhes-slide-2">
+                            <div class="home-text texto-slide-2">
+                                <h4 class="sub-h4">Carrousel<h4>
+                                <h1 class="title-h1">Site Responsivo</h1>
+                                <h3 class="sub-h-3">Website</h3>
+                                <a href="https://silvani-c.github.io/slide-show/" target="_blank"
+                                class="btn-geral">Saiba Mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--slider 09-->
+                    <div class="swiper-slide swiper-slide-2">
+                        <img src="assets/img/slide9.JPG" alt="Cards Flip" class="home-img">
+                        <div class="home-details detalhes-slide-2">
+                            <div class="home-text texto-slide-2">
+                                <h4 class="sub-h4">Cards<h4>
+                                <h1 class="title-h1">Cards Flip</h1>
+                                <h3 class="sub-h-3">Cards Responsivo</h3>
+                                <a href="https://silvani-c.github.io/cards-flip-responsivo-redes-da-silvani/" target="_blank" class="btn-geral">Saiba Mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--swiper-wrapper-->
+                <div class="swiper-button-next swiper-navBtn"></div>
+                <div class="swiper-button-prev swiper-navBtn"></div>
+                <div class="swiper-pagination bullet"></div>
+            </div><!--swiper mySwiper-->
+        </section>
+        <!-- Sobre mim -->
+        <section class="secao sobre-mim" id="sobre">
+            <div class="titulo-secao">
+                <h2 class="titulo-h2"><span class="c">S</span>obre <span>M</span>im</h2>
+            </div>
+            <div class="sec-container-sobre">
+                <!--icones vertical Y-->
+                <div class="barra icons-lateral">
+                    <a href="https://web.facebook.com/silvani.santos.182" target="_blank"><ion-icon
+                            name="logo-facebook"></ion-icon></a>
+                    <a href="https://www.instagram.com/silvani_santos_caitano/" target="_blank"><ion-icon
+                            name="logo-instagram"></ion-icon></a>
+                    <a href="https://www.linkedin.com/in/silvani-santos-ba13a526a/" target="_blank"><ion-icon
+                            name="logo-linkedin"></ion-icon></a>
+                    <a href="https://github.com/Silvani-C" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                    <a href="https://web.whatsapp.com/" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                </div>
+                <div class="texto-sobre">
+                    <h2 class="titulo-h2-sobre">Desenvolvedora <span>&</span> Designer</h2>
+                    <p class="p80">Eu sou um desenvolvedor web front-end. Eu posso fornecer códigos limpos e imagem de
+                        design perfeito. E também fazer website mais & mais interativo e com animação web. E posso
+                        deixar seu site responsivo, e que ele acesse todos os usuários, independente dos seus aparelhos
+                        dispositivos <br><br>
+                        Muitos sites devem ser construídos com dois principais objetivos: Primeiramente, ele precisa
+                        funcionar em todos os dispositivos. Segundo, ele precisa ser o mais rápido possível</p>
+                    <button class="btn-geral"><a href="https://web.whatsapp.com/" target="_blank">Vamos conversar</a></button>
+                </div>
+                <div class="sobre-img">
+                    <img src="assets/img/img2-sobre.png" class="img-sobre">
+                </div>
+            </div>
+        </section>
+        <!-- habilidades -->
+        <section class="secao secao-habilidades" id="habilidades">
+            <div class="titulo-secao">
+                <h2 class="titulo-h2"><span>H</span>abilidades</h2>
+            </div>
+            <div class="containe-grupo-hab">
+                <!--Card 01-->
+                <div class="card">
+                    <div class="face face-img">
+                        <div class="content">
+                            <img src="assets/img/logohtml.png" alt="HTML">
+                            <h3>HTML</h3>
+                        </div>
+                    </div>
+                    <div class="face face-desc">
+                        <div class="content">
+                            <p>HTML é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos
+                                HTML podem ser interpretados por navegadores. A tecnologia é fruto da junção entre os
+                                padrões HyTime e SGML. HyTime é um padrão estruturada.</p>
+                            <a href="#">Click-me</a>
+                        </div>
+                    </div>
+                </div>
+                <!--Card 02-->
+                <div class="card">
+                    <div class="face face-img">
+                        <div class="content">
+                            <img src="assets/img/logocss.png" alt="CSS">
+                            <h3>CSS</h3>
+                        </div>
+                    </div>
+                    <div class="face face-desc">
+                        <div class="content">
+                            <p>Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web, aplicado
+                                diretamente nas tags HTML ou ficar contido dentro das tags (style). Também é possível,
+                                adicionar estilos adicionando um link para um arquivo CSS.</p>
+                            <a href="#">Click-me</a>
+                        </div>
+                    </div>
+                </div>
+                <!--Card 03-->
+                <div class="card">
+                    <div class="face face-img">
+                        <div class="content">
+                            <img src="assets/img/logojs.png" alt="JavaScript">
+                            <h3>JavaScript</h3>
+                        </div>
+                    </div>
+                    <div class="face face-desc">
+                        <div class="content">
+                            <p>JavaScript é uma linguagem de programação interpretada estruturada, de script em alto
+                                nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o
+                                JavaScript é uma das três principais tecnologias da World Wide Web.</p>
+                            <a href="#">Click-me</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- redes sociais -->
+        <section class="secao secao-sociais" id="redes-sociais">
+            <div class="titulo-secao">
+                <h2 class="titulo-h2"><span>R</span>edes <span>S</span>ociais</h2>
+            </div>
+            <div class="sec-container">
+                <div class="container-card-carrousel">
+                    <input type="radio" name="slider" class="d-none" id="s1" checked>
+                    <input type="radio" name="slider" class="d-none" id="s2">
+                    <input type="radio" name="slider" class="d-none" id="s3">
+                    <input type="radio" name="slider" class="d-none" id="s4">
+                    <input type="radio" name="slider" class="d-none" id="s5">
+                    <div class="cards">
+                        <!--label 01-->
+                        <label for="s1" id="slide1">
+                            <div class="card">
+                                <div class="image">
+                                    <img src="assets/img/card1.png" alt="">
+                                    <div class="dots">
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                    </div><!--dots-->
+                                </div>
+                                <!--informações-->
+                                <div class="infos">
+                                    <span class="name">FACEBOOK</span>
+                                    <span class="lorem">Redes Sociais</span>
+                                </div><!--infos-->
+                                <a href="https://web.facebook.com/silvani.santos.182" class="btn-contact"
+                                    target="_blank">facebook</a>
+                                <div class="sociais">
+                                    <a href="https://www.instagram.com/silvani_santos_caitano/"
+                                        target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                                    <a href="https://www.linkedin.com/in/silvani-santos-ba13a526a/"
+                                        target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                                    <a href="https://github.com/Silvani-C" target="_blank"><ion-icon
+                                            name="logo-github"></ion-icon></a>
+                                    <a href="https://web.whatsapp.com/" target="_blank"><ion-icon
+                                            name="logo-whatsapp"></ion-icon></a>
+                                </div>
+                            </div>
+                        </label>
+                        <!--label 02-->
+                        <label for="s2" id="slide2">
+                            <div class="card">
+                                <div class="image">
+                                    <img src="assets/img/card2.png" alt="">
+                                    <div class="dots">
+                                        <div class="dot1"></div>
+                                        <div class="dot2"></div>
+                                        <div class="dot3"></div>
+                                    </div>
+                                </div>
+                                <div class="infos">
+                                    <span class="name">INSTAGRAM</span>
+                                    <span class="lorem">Redes Sociais</span>
+                                </div>
+                                <a href="https://www.instagram.com/silvani_santos_caitano/" target="_blank"
+                                    class="btn-contact">instagram</a>
+                                <div class="sociais">
+                                    <a href="https://web.facebook.com/silvani.santos.182" target="_blank"><ion-icon
+                                    name="logo-facebook"></ion-icon></a>
+                                    <a href="https://www.linkedin.com/in/silvani-santos-ba13a526a/"
+                                    target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                                    <a href="https://github.com/Silvani-C" target="_blank"><ion-icon
+                                    name="logo-github"></ion-icon></a>
+                                    <a href="https://web.whatsapp.com/" target="_blank"><ion-icon
+                                    name="logo-whatsapp"></ion-icon></a>
+                                </div>
+                            </div>
+                        </label>
+                        <!--label 03-->
+                        <label for="s3" id="slide3">
+                            <div class="card">
+                                <div class="image">
+                                    <img src="assets/img/card3.png" alt="">
+                                    <div class="dots">
+                                        <div class="dot1"></div>
+                                        <div class="dot2"></div>
+                                        <div class="dot3"></div>
+                                    </div>
+                                </div>
+                                <div class="infos">
+                                    <span class="name">LINKEDIN</span>
+                                    <span class="lorem">Redes Sociais</span>
+                                </div>
+                                <a href="https://www.linkedin.com/in/silvani-santos-ba13a526a/" class="btn-contact"
+                                    target="_blank">linkedin</a>
+                                <div class="sociais">
+                                    <a href="https://web.facebook.com/silvani.santos.182" target="_blank"><ion-icon
+                                    name="logo-facebook"></ion-icon></a>
+                                    <a href="https://www.instagram.com/silvani_santos_caitano/"
+                                    target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                                    <a href="https://github.com/Silvani-C" target="_blank"><ion-icon
+                                    name="logo-github"></ion-icon></a>
+                                    <a href="https://web.whatsapp.com/" target="_blank"><ion-icon
+                                    name="logo-whatsapp"></ion-icon></a>
+                                </div>
+                            </div>
+                        </label>
+                        <!--label 04-->
+                        <label for="s4" id="slide4">
+                            <div class="card">
+                                <div class="image">
+                                    <img src="assets/img/card4.png" alt="">
+                                    <div class="dots">
+                                        <div class="dot1"></div>
+                                        <div class="dot2"></div>
+                                        <div class="dot3"></div>
+                                    </div>
+                                </div>
+                                <div class="infos">
+                                    <span class="name">GITHUB</span>
+                                    <span class="lorem">Redes Sociais</span>
+                                </div>
+                                <a href="https://github.com/Silvani-C" class="btn-contact" target="_blank">github</a>
+                                <div class="sociais">
+                                    <a href="https://web.facebook.com/silvani.santos.182" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+                                    <a href="https://www.instagram.com/silvani_santos_caitano/"
+                                    target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                                    <a href="https://www.linkedin.com/in/silvani-santos-ba13a526a/"
+                                    target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                                    <a href="https://web.whatsapp.com/" target="_blank"><ion-icon
+                                    name="logo-whatsapp"></ion-icon></a>
+                                </div>
+                            </div>
+                        </label>
+                        <!--label 05-->
+                        <label for="s5" id="slide5">
+                            <div class="card">
+                                <div class="image">
+                                    <img src="assets/img/card5.png" alt="">
+                                    <div class="dots">
+                                        <div class="dot1"></div>
+                                        <div class="dot2"></div>
+                                        <div class="dot3"></div>
+                                    </div>
+                                </div>
+                                <div class="infos">
+                                    <span class="name">WHATSAPP</span>
+                                    <span class="lorem">Redes Sociais</span>
+                                </div>
+                                <a href="https://web.whatsapp.com/" class="btn-contact" target="_blank">whatsapp</a>
+                                <div class="sociais">
+                                    <a href="https://web.facebook.com/silvani.santos.182" target="_blank"><ion-icon
+                                    name="logo-facebook"></ion-icon></a>
+                                    <a href="https://www.instagram.com/silvani_santos_caitano/"
+                                    target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                                    <a href="https://www.linkedin.com/in/silvani-santos-ba13a526a/"
+                                    target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                                    <a href="https://github.com/Silvani-C" target="_blank"><ion-icon
+                                    name="logo-github"></ion-icon></a>
+                                </div>
+                            </div>
+                        </label>
+                    </div><!--cards-->
+                </div><!--container-card-carrousel-->
+            </div>
+        </section>
+        <!-- Contatos -->
+        <section class="secao contatos" id="contatos">
+            <div class="titulo-secao">
+                <h2 class="titulo-h2"><span class="c">C</span>ontatos</h2>
+            </div>
+            <div class="sec-container">
+                <div class="sec-50 contato-image"><img src="assets/img/cont.png" alt="Imagem de Contatos"
+                        class="img-cont"></div>
+                <div class="sec-50 text-cont">
+                    <div class="contato">
+                        <h2 class="cont-h2">Contatos</h2>
+                        <div class="linha"></div>
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <span id="sp1">silvanicaitano@hotmail.com</span>
+                        <ion-icon name="call-outline"></ion-icon>
+                        <span>+55 15 99172-4703</span>
+                        <ion-icon name="logo-whatsapp"></ion-icon>
+                        <span>+55 11 96657-5573</span>
+                        <ion-icon name="location-outline"></ion-icon>
+                        <span>Sorocaba - São Paulo</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer><p> ©: 2023 - <span> Silvani Santos </span> - Todos os Direitos Reservados</p></footer>
+    <!-- Scroll up -->
+    <div class="arrow"><a href="#home" class="scrollup-btn"><span class="arrow">&uArr;</span>
+    </a></div>
+    <!-- Icons externo -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- Swiper JS -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!-- JavaScript -->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
